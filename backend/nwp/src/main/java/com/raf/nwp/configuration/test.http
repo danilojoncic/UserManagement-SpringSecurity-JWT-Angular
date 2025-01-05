@@ -1,0 +1,47 @@
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "darling@gmail.com",
+  "password": "yess"
+}
+
+###
+GET http://localhost:8080/api/user/permissions
+Accept: application/json
+
+###
+PUT http://localhost:8080/api/user/2
+Content-Type: application/json
+
+{
+
+}
+
+###
+DELETE http://localhost:8080/api/user/6
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9ucyI6WyJjYW5fcmVhZCIsImNhbl9jcmVhdGUiLCJjYW5fZWRpdCJdLCJzdWIiOiJkYXJsaW5nQGdtYWlsLmNvbSIsImlhdCI6MTczNTYxNjY3MywiZXhwIjoxNzM1NzAzMDczfQ.i7yGRsCoJ3WWtTp1mOvq0gjMXwkCtaRCSiBy4kIVSUE
+
+
+###
+POST http://localhost:8080/api/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9ucyI6WyJjYW5fcmVhZCIsImNhbl9jcmVhdGUiLCJjYW5fZWRpdCJdLCJzdWIiOiJkYXJsaW5nQGdtYWlsLmNvbSIsImlhdCI6MTczNTYxNjY3MywiZXhwIjoxNzM1NzAzMDczfQ.i7yGRsCoJ3WWtTp1mOvq0gjMXwkCtaRCSiBy4kIVSUE
+
+
+{
+  "firstName": "Danny",
+  "lastName": "Danny",
+  "email": "dan@gmail.com",
+  "password": "da"
+}
+
+###
+GET http://localhost:8080/api/user
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9ucyI6WyJjYW5fcmVhZCIsImNhbl9jcmVhdGUiLCJjYW5fZWRpdCIsImNhbl9kZWxldGUiXSwic3ViIjoiYmxhY2tAZ21haWwuY29tIiwiaWF0IjoxNzM2MDM4MjM0LCJleHAiOjE3MzYxMjQ2MzR9.SoKGjFqMvlgtvgZaeKVvA_-e-PawHrA695S0YSWPzNU
+
+###
+
+
