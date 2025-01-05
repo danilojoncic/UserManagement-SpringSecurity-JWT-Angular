@@ -1,5 +1,5 @@
 # UserManagement-SpringSecurity-JWT-Angular
-Spring Boot 3.4, Spring Security 6.X, Angular 16.X.X
+Java 21, Gradle, Spring Boot 3.4.X, Spring Security 6.X, Angular 16.X.X, Blackadder Season 4
 ## Images
 ![image](https://github.com/user-attachments/assets/b38ef040-7fb7-4980-8da5-ea94e08d2cdf)
 ![image](https://github.com/user-attachments/assets/c66b5353-3ebb-473b-aec6-5d130295db5f)
